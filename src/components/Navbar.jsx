@@ -1,5 +1,9 @@
 import React, { useState } from "react";
 import "../index.css";
+import AICTE_logo from "../assets/AICTE_logo.jpeg";
+import DTDCFAC_logo from "../assets/DTDCFAC 2025 logo.png";
+import JIS_logo from "../assets/images.png";
+import SurTech_logo from "../assets/SurTech_Logo.png";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -9,30 +13,14 @@ const Navbar = () => {
       <div className="nav-container">
         <div className="logo">
           <a href="https://www.aicte.gov.in/" target="_blank">
-            <img
-              src="src\assets\AICTE_logo.jpeg"
-              alt="AICTE_Logo"
-              className="logo-img"
-            />
+            <img src={AICTE_logo} alt="AICTE_Logo" className="logo-img" />
           </a>
-          <img
-            src="src\assets\DTDCFAC 2025 logo.png"
-            alt="DTDCFAC_Logo"
-            className="logo-img"
-          />
+          <img src={DTDCFAC_logo} alt="DTDCFAC_Logo" className="logo-img" />
           <a href="https://www.jisgroup.org/" target="_blank">
-            <img
-              src="src\assets\images.png"
-              alt="JIS_Logo"
-              className="logo-img"
-            />
+            <img src={JIS_logo} alt="JIS_Logo" className="logo-img" />
           </a>
           <a href="https://www.surtech.edu.in/" target="_blank">
-            <img
-              src="src\assets\SurTech_Logo.png"
-              alt="SurTech_Logo"
-              className="logo-img"
-            />
+            <img src={SurTech_logo} alt="SurTech_Logo" className="logo-img" />
           </a>
         </div>
 

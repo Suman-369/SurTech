@@ -1,4 +1,5 @@
 import "bootstrap/dist/css/bootstrap.min.css";
+import AboutImg from "../assets/AboutImg.jpg";
 
 const About = () => {
   return (
@@ -13,7 +14,7 @@ const About = () => {
       <div className="row align-items-center mb-5">
         <div className="col-md-6">
           <img
-            src="src\assets\AboutImg.jpg"
+            src={AboutImg}
             alt="Our Mission"
             className="img-fluid rounded shadow hei"
             style={{ height: "500px", width: "800px", objectFit: "fill" }}
